@@ -9,7 +9,7 @@
 }
 
 :root{
-    --bg-color:#e3edf7;
+    --bg-color:#F7CFD8;
     --gradient-white-bg:linear-gradient(0deg,#fff 0%,#edf4fa 51%,#e5eef7 100%);
     --gradient-color-bg:linear-gradient(180deg,rgba(1, 112, 247, 0.774)0%,
                                                 rgb(176, 171, 16)51%,
@@ -54,7 +54,7 @@ header .logo{
 span{
     background: var(--gradient-color-bg);
     -webkit-background-clip: text;
-    color: transparent;
+    color: #1adb4764;
 }
 
 ul.navlist{
@@ -360,11 +360,11 @@ section{
 }
 
 .about .about-img .aboutHero{
-    /* width: 40vw; */
     height: auto;
-
-    width: 25vw;
-    
+    width: 18vw;  
+}
+.aboutHero{
+    border-radius: 20px;
 }
 
 .about-img .ring{
@@ -375,7 +375,7 @@ section{
 
 .about-img .circle{
     position: absolute;
-    top: 0%;
+    top: -20%;
     left: 0%;
 }
 
@@ -395,7 +395,7 @@ section{
 }
 
 .about-content p{
-    color: var(--font-color);
+    color: #770753;
 }
 
 .text-box p{
@@ -764,28 +764,6 @@ form .btn{
 }
 
 /* ==================== Skills section css code ============================ */
-
-.skillBox{
-    padding: 0 1rem 1rem;
-}
-
-.skillBox .main-text{
-    margin-bottom: 1rem;
-}
-
-.skill-wrap{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px , auto));
-    justify-content: center;
-    grid-gap: 2.5rem;
-}
-
-.skill{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 .outer-circle{
     width: 170px;
